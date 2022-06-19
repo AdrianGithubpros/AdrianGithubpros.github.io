@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://first1time2creation.herokuapp.com/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1/boards/6248a4940301c56decb20f13?key=de6790da606ef4f2a853643acf944d1e&token=beb0d5e3aef7e10eeafcf5767fbf5a7787b28e7f58ab9b19a79801343a3aec1b';
+  const trelloApiRoot = 'https://api.trello.com/1/members/adrianzienkiewicz/boards?fields=name,id&key=de6790da606ef4f2a853643acf944d1e&token=beb0d5e3aef7e10eeafcf5767fbf5a7787b28e7f58ab9b19a79801343a3aec1b';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
